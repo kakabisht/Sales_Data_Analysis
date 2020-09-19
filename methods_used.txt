@@ -1,0 +1,54 @@
+Some of the inbuilt methods used for this Sales Data Analysis Project, the definations have been referenced from the official documentation.
+
+1.head(): for printing first 5 records
+
+2.count(): count the number over requested axis
+
+3.mean(): mean of the number of enteries
+
+4.max() : maximum over the requested axis
+
+5.min() : minimum over the requested axis
+
+6.std() : sample standard deviation over requested axis
+
+7.isna() : finding null vlaues in the table
+
+8.sum() : finding sum of the requested axis
+
+9.pd.datatime(parameter) : Converts the parameter into pandas date time format
+
+10.info() : Displays information about the pandas object
+
+11.dt.year() : the year of the datetime
+
+12.DataFrame() : converting to DataFrame object
+
+13.dt.strftime() : return an Index of formatted strings specified by date_format, which supports the same string format as the python standard library
+
+14.groupby() : involves some combination of splitting the object, applying a function, and combining the results. This can be used to group large amounts of data and compute operations on these groups
+
+15.merge() : The join is done on columns or indexes. If joining columns on columns, the DataFrame indexes will be ignored. Otherwise if joining indexes on indexes or indexes on a column or columns, the index will be passed on.
+	1.left index : Use the index from the left DataFrame as the join key(s).
+	2.right index : Use the index from the right DataFrame as the join key.
+	3.inplace :  inplace=True returns None inplace=False returns a copy of the object with the 	operation performed
+
+16.plot() : Uses the backend specified by the option plotting.backend. By default, matplotlib is used.
+
+17.assign() : Returns a new object with all original columns in addition to new ones. Existing columns that are re-assigned will be overwritten.
+
+18.sort_values() : Sort by the values along either axis.
+
+19.replace() : Values of the DataFrame are replaced with other values dynamically.
+
+20.reset_index() : Reset the index of the DataFrame, and use the default one instead. If the DataFrame has a MultiIndex, this method can remove one or more levels.
+
+21.iloc() : Purely integer-location based indexing for selection by position.
+
+22.rename() : Alter axes labels.
+
+23.idxmax() : Return index of first occurrence of maximum over requested axis.
+
+24.idxmin() : Return index of first occurrence of minimum over requested axis.
+
+
